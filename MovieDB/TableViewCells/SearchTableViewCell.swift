@@ -1,27 +1,30 @@
 //
-//  InTheatersTableViewCell.swift
+//  SearchTableViewCell.swift
 //  MovieDB
 //
-//  Created by Esther Donde on 28/11/2017.
+//  Created by Esther Donde on 19/12/2017.
 //  Copyright © 2017 Esther Donde. All rights reserved.
 //
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+class SearchTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var moviePosterImageView: UIImageView!
-    @IBOutlet weak var movieTitleLabel: UILabel!
-    
     @IBOutlet weak var voteLabel: UILabel!
     
-    @IBOutlet weak var releaseDateLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+   
+    @IBOutlet weak var imageViewLabel: UIImageView!
+   
     @IBOutlet weak var genresLabel: UILabel!
     
+    @IBOutlet weak var relDateValueLabel: UILabel!
+  
+    @IBOutlet weak var relDateLabel: UILabel!
+    
+    @IBOutlet weak var runTimeValueLabel: UILabel!
+    
     @IBOutlet weak var runTimeLabel: UILabel!
-    
-    @IBOutlet weak var overviewTextField: UITextView!
-    
     @IBOutlet weak var votePic: UIImageView!
     
     override func awakeFromNib() {
